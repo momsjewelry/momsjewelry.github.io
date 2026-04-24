@@ -2,7 +2,7 @@
    MOM'S JEWELRY — Stylesheet (Option F: Vintage Editorial)
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap');
 
 /* ── CSS Variables ── */
 :root {
@@ -15,8 +15,8 @@
   --light-line: #d4c9b0;
   --surface:    #ede8dc;
 
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-body:    'Outfit', sans-serif;
+  --font-display: 'M PLUS Rounded 1c', sans-serif;
+  --font-body:    'M PLUS Rounded 1c', sans-serif;
 
   --max-width: 1100px;
   --radius:    2px;
@@ -48,7 +48,7 @@ a {
 h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   line-height: 1.1;
 }
 
@@ -102,7 +102,8 @@ nav {
 .nav-logo {
   font-family: var(--font-display);
   font-size: 1.4rem;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
   color: var(--parchment);
   letter-spacing: 0.01em;
 }
@@ -446,7 +447,8 @@ nav {
 .product-name {
   font-family: var(--font-display);
   font-size: 1.05rem;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
   margin-bottom: 0.2rem;
 }
 
@@ -526,7 +528,8 @@ nav {
 .contact-card-name {
   font-family: var(--font-display);
   font-size: 1.7rem;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .contact-card-title {
