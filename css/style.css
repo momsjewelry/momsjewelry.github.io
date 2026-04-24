@@ -115,7 +115,7 @@ nav {
   font-size: 0.68rem;
   display: block;
   letter-spacing: 0.2em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--amber-light);
   margin-top: -0.15rem;
 }
@@ -665,7 +665,7 @@ footer {
 .footer-links a {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #6a5a48;
 }
 
