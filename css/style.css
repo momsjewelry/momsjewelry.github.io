@@ -182,7 +182,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   border-bottom: 2px solid var(--ink);
   align-items: stretch;
-  height: 35vh;
+  height: 70vh;
   overflow: hidden;
 }
 
