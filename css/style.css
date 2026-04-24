@@ -179,10 +179,14 @@ nav {
 /* ── Hero ── */
 .hero {
   display: grid;
-  grid-template-columns: auto 1fr;
-  min-height: 60vh;
+  grid-template-columns: 1fr 1fr;
   border-bottom: 2px solid var(--ink);
   align-items: stretch;
+}
+
+.hero-stamp-col {
+  overflow: hidden;
+  height: 100%;
 }
 
 .hero-content {
@@ -209,15 +213,6 @@ nav {
   max-width: 42ch;
 }
 
-.hero-stamp-col {
-  background: var(--amber);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.2rem;
-  padding: 2rem;
-}
 
 .stamp-ring {
   width: 90px;
