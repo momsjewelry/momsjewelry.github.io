@@ -20,50 +20,67 @@
         <span>Handmade Polymer Jewelry</span>
       </a>
       <ul class="nav-links">
-        <li><a href="index.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="contact.html" class="active">contact</a></li>
       </ul>
     </div>
   </nav>
 
+  <!-- ═══════════════════════════════════════
+       TICKER STRIP
+  ═══════════════════════════════════════ -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>handmade with love</span>
+      <span>polymer clay jewelry</span>
+      <span>no two pieces alike</span>
+      <span>custom orders welcome</span>
+      <span>free shipping over $50</span>
+      <span>handmade with love</span>
+      <span>polymer clay jewelry</span>
+      <span>no two pieces alike</span>
+      <span>custom orders welcome</span>
+      <span>free shipping over $50</span>
+    </div>
+  </div>
+
 
   <!-- ═══════════════════════════════════════
-       CONTACT / BUSINESS CARD SECTION
+       CONTACT / BUSINESS CARD
   ═══════════════════════════════════════ -->
   <section class="contact-page">
     <div class="container">
       <div class="contact-grid">
 
-        <!-- LEFT: Intro text -->
+        <!-- LEFT: Intro -->
         <div class="contact-intro">
-          <span class="section-label">Let's connect</span>
-          <!-- ✏️ Headline -->
-          <h1>Get in Touch</h1>
+          <span class="section-label">let's connect</span>
+          <h1>get in touch.</h1>
           <div class="divider"></div>
 
           <!-- ✏️ Write a short welcoming paragraph -->
           <p>
-            Whether you have a question about a piece, want to place a custom order,
-            or just want to say hello — I'd love to hear from you.
-            I typically respond within 1–2 business days.
+            whether you have a question about a piece, want to place a custom order,
+            or just want to say hello — i'd love to hear from you.
+            i typically respond within 1–2 business days.
           </p>
 
           <br />
 
-          <!-- ✏️ Add any extra info: turnaround times, shipping policy, etc. -->
+          <!-- ✏️ Turnaround times, shipping notes, etc. -->
           <p style="color: var(--mid); font-size: 0.9rem;">
-            For custom orders, please include your color preferences, occasion,
+            for custom orders, please include your color preferences, occasion,
             and any inspiration images — the more detail, the better!
           </p>
 
           <br /><br />
 
-          <!-- ✏️ Optional: Markets / pop-ups you attend -->
-          <span class="section-label">Find me in person</span>
-          <p style="color: var(--mid); font-size: 0.9rem;">
-            ✏️ List any local markets, craft fairs, or pop-ups you attend regularly.
-            For example: "Every first Saturday at the ✏️ City Farmers Market, 8am–1pm."
+          <!-- ✏️ Markets / pop-ups — delete if not applicable -->
+          <span class="section-label">find me in person</span>
+          <p style="color: var(--mid); font-size: 0.9rem; margin-top: 0.5rem;">
+            ✏️ list any local markets or craft fairs you attend.
+            e.g. "every first saturday at the ✏️ city farmers market, 8am–1pm."
           </p>
         </div>
 
@@ -71,11 +88,17 @@
         <!-- RIGHT: Business Card -->
         <div>
           <div class="contact-card">
+
             <div class="contact-card-header">
-              <!-- ✏️ Your name -->
-              <p class="contact-card-name">Your Name</p>
-              <!-- ✏️ Your title / role -->
-              <p class="contact-card-title">Polymer Clay Artist &amp; Maker</p>
+              <div class="contact-card-header-text">
+                <!-- ✏️ Your name -->
+                <p class="contact-card-name">Your Name</p>
+                <!-- ✏️ Your title -->
+                <p class="contact-card-title">Polymer Clay Artist &amp; Maker</p>
+              </div>
+              <div class="contact-card-stamp">
+                <span>hand<br>made<br>✦</span>
+              </div>
             </div>
 
             <div class="contact-items">
@@ -89,15 +112,15 @@
                   </svg>
                 </div>
                 <div>
-                  <span class="contact-label">Email</span>
-                  <!-- ✏️ Replace with your email -->
+                  <span class="contact-label">email</span>
+                  <!-- ✏️ Your email -->
                   <p class="contact-value">
                     <a href="mailto:you@example.com">you@example.com</a>
                   </p>
                 </div>
               </div>
 
-              <!-- PHONE (delete this block if you don't want to list a phone number) -->
+              <!-- PHONE — delete block if not wanted -->
               <div class="contact-item">
                 <div class="contact-icon">
                   <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
@@ -105,8 +128,8 @@
                   </svg>
                 </div>
                 <div>
-                  <span class="contact-label">Phone / Text</span>
-                  <!-- ✏️ Replace with your number, or delete this block -->
+                  <span class="contact-label">phone / text</span>
+                  <!-- ✏️ Your number -->
                   <p class="contact-value">
                     <a href="tel:+15550000000">(555) 000-0000</a>
                   </p>
@@ -122,13 +145,13 @@
                   </svg>
                 </div>
                 <div>
-                  <span class="contact-label">Based in</span>
-                  <!-- ✏️ Your city / region -->
+                  <span class="contact-label">based in</span>
+                  <!-- ✏️ Your city -->
                   <p class="contact-value">✏️ Your City, State</p>
                 </div>
               </div>
 
-              <!-- ETSY (delete if not applicable) -->
+              <!-- ETSY — delete if not applicable -->
               <div class="contact-item">
                 <div class="contact-icon">
                   <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
@@ -137,8 +160,8 @@
                   </svg>
                 </div>
                 <div>
-                  <span class="contact-label">Etsy Shop</span>
-                  <!-- ✏️ Replace with your Etsy URL -->
+                  <span class="contact-label">etsy shop</span>
+                  <!-- ✏️ Your Etsy URL -->
                   <p class="contact-value">
                     <a href="https://etsy.com/shop/YOURSHOP" target="_blank" rel="noopener">
                       etsy.com/shop/YOURSHOP
@@ -152,25 +175,23 @@
             <!-- SOCIAL LINKS -->
             <div class="social-row">
 
-              <!-- ✏️ Replace href with your Instagram URL. Delete block if not applicable. -->
+              <!-- ✏️ Your Instagram — delete if not applicable -->
               <a class="social-link" href="https://instagram.com/YOURUSERNAME" target="_blank" rel="noopener">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                   <circle cx="12" cy="12" r="4"/>
                   <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
                 </svg>
-                Instagram
+                instagram
               </a>
 
-              <!-- ✏️ Replace with your TikTok URL, or delete. -->
+              <!-- ✏️ Your TikTok — delete if not applicable -->
               <a class="social-link" href="https://tiktok.com/@YOURUSERNAME" target="_blank" rel="noopener">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>
                 </svg>
-                TikTok
+                tiktok
               </a>
-
-              <!-- ✏️ Add Pinterest, Facebook, etc. as needed using the same pattern -->
 
             </div><!-- /.social-row -->
 
@@ -187,11 +208,11 @@
   ═══════════════════════════════════════ -->
   <footer>
     <div class="container footer-inner">
-      <p class="footer-copy">© 2025 ✏️ Your Store Name. All rights reserved.</p>
+      <p class="footer-copy">© 2025 ✏️ Your Store Name. all rights reserved.</p>
       <ul class="footer-links">
-        <li><a href="index.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="contact.html">contact</a></li>
       </ul>
     </div>
   </footer>

@@ -20,183 +20,191 @@
         <span>Handmade Polymer Jewelry</span>
       </a>
       <ul class="nav-links">
-        <li><a href="index.html">About</a></li>
-        <li><a href="shop.html" class="active">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="shop.html" class="active">shop</a></li>
+        <li><a href="contact.html">contact</a></li>
       </ul>
     </div>
   </nav>
+
+  <!-- ═══════════════════════════════════════
+       TICKER STRIP
+  ═══════════════════════════════════════ -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>handmade with love</span>
+      <span>polymer clay jewelry</span>
+      <span>no two pieces alike</span>
+      <span>custom orders welcome</span>
+      <span>free shipping over $50</span>
+      <span>handmade with love</span>
+      <span>polymer clay jewelry</span>
+      <span>no two pieces alike</span>
+      <span>custom orders welcome</span>
+      <span>free shipping over $50</span>
+    </div>
+  </div>
 
 
   <!-- ═══════════════════════════════════════
        SHOP HEADER
   ═══════════════════════════════════════ -->
   <div class="shop-header container">
-    <span class="section-label">The Collection</span>
-    <h1>Shop All Pieces</h1>
-    <!-- ✏️ Optional short description -->
-    <p>Handcrafted one at a time — no two pieces are exactly alike.</p>
+    <span class="section-label">the collection</span>
+    <h1>shop all pieces.</h1>
+    <!-- ✏️ Optional short line -->
+    <p>handcrafted one at a time — no two pieces are exactly alike.</p>
   </div>
 
 
   <!-- ═══════════════════════════════════════
        FILTER BAR
-       ✏️ Edit the category names to match
-           your actual product types.
-           Remove this whole block if you
-           don't want filters.
+       ✏️ Edit category names to match your
+           product types. Delete this block
+           if you don't want filters.
   ═══════════════════════════════════════ -->
   <div class="container">
     <div class="filter-bar">
-      <button class="filter-btn active">All</button>
-      <button class="filter-btn">Earrings</button>
-      <button class="filter-btn">Necklaces</button>
-      <button class="filter-btn">Rings</button>
-      <button class="filter-btn">Bracelets</button>
-      <!-- ✏️ Add or remove category buttons as needed -->
+      <button class="filter-btn active">all</button>
+      <button class="filter-btn">earrings</button>
+      <button class="filter-btn">necklaces</button>
+      <button class="filter-btn">rings</button>
+      <button class="filter-btn">bracelets</button>
+      <!-- ✏️ Add or remove buttons as needed -->
     </div>
   </div>
 
 
   <!-- ═══════════════════════════════════════
        PRODUCT GRID
-       ✏️ Duplicate a .product-card block for
-           each item you sell. Fill in the
-           name, material, price, and swap
-           the image path.
+       ✏️ Duplicate an <article> block for
+           each product. Fill in name,
+           material, price, and image path.
   ═══════════════════════════════════════ -->
-  <section style="padding-top: 0;">
-    <div class="container">
-      <div class="product-grid">
+  <div class="container" style="padding-bottom: 5rem;">
+    <div class="product-grid">
 
 
-        <!-- ── PRODUCT CARD TEMPLATE ──
-             Copy everything from <article> to </article>
-             for each new product.
-        -->
+      <!-- ── PRODUCT CARD — copy this block for each new item ── -->
 
-        <!-- PRODUCT 1 -->
-        <article class="product-card">
-          <div class="product-img">
-            <!--
-              ✏️ Replace src with your product photo.
-              Put images in the /images/ folder.
-              Recommended: square images, at least 600×600 px.
-              If you don't have a photo yet, delete the <img> tag
-              and the placeholder <div> will show automatically.
-            -->
-            <img src="images/product-1.jpg" alt="✏️ Product name" />
-          </div>
-          <div class="product-info">
-            <p class="product-name">✏️ Product Name</p>      <!-- e.g. "Terracotta Hoop Earrings" -->
-            <p class="product-material">✏️ Material / Details</p>  <!-- e.g. "Polymer clay · Gold-fill hooks" -->
-            <p class="product-price">
-              $✏️.00
-              <!-- ✏️ Optional badge: "New", "Sold Out", "Last One" etc.
-                   Delete the <span> if not needed. -->
-              <span class="product-badge">New</span>
-            </p>
-          </div>
-        </article>
+      <!-- PRODUCT 1 -->
+      <article class="product-card">
+        <div class="product-img">
+          <!--
+            ✏️ Replace src with your product photo.
+            Put images in /images/ folder.
+            Square images work best (at least 600×600 px).
+          -->
+          <img src="images/product-1.jpg" alt="✏️ Product name" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">✏️ Product Name</p>
+          <p class="product-material">✏️ Material · Details</p>
+          <p class="product-price">
+            $✏️.00
+            <!-- ✏️ Optional badge. Delete <span> if not needed. -->
+            <span class="product-badge">new</span>
+          </p>
+        </div>
+      </article>
 
 
-        <!-- PRODUCT 2 -->
-        <article class="product-card">
-          <div class="product-img">
-            <img src="images/product-2.jpg" alt="✏️ Product name" />
-          </div>
-          <div class="product-info">
-            <p class="product-name">✏️ Product Name</p>
-            <p class="product-material">✏️ Material / Details</p>
-            <p class="product-price">$✏️.00</p>
-          </div>
-        </article>
+      <!-- PRODUCT 2 -->
+      <article class="product-card">
+        <div class="product-img">
+          <img src="images/product-2.jpg" alt="✏️ Product name" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">✏️ Product Name</p>
+          <p class="product-material">✏️ Material · Details</p>
+          <p class="product-price">$✏️.00</p>
+        </div>
+      </article>
 
 
-        <!-- PRODUCT 3 -->
-        <article class="product-card">
-          <div class="product-img">
-            <img src="images/product-3.jpg" alt="✏️ Product name" />
-          </div>
-          <div class="product-info">
-            <p class="product-name">✏️ Product Name</p>
-            <p class="product-material">✏️ Material / Details</p>
-            <p class="product-price">$✏️.00</p>
-          </div>
-        </article>
+      <!-- PRODUCT 3 -->
+      <article class="product-card">
+        <div class="product-img">
+          <img src="images/product-3.jpg" alt="✏️ Product name" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">✏️ Product Name</p>
+          <p class="product-material">✏️ Material · Details</p>
+          <p class="product-price">$✏️.00</p>
+        </div>
+      </article>
 
 
-        <!-- PRODUCT 4 -->
-        <article class="product-card">
-          <div class="product-img">
-            <img src="images/product-4.jpg" alt="✏️ Product name" />
-          </div>
-          <div class="product-info">
-            <p class="product-name">✏️ Product Name</p>
-            <p class="product-material">✏️ Material / Details</p>
-            <p class="product-price">
-              $✏️.00
-              <span class="product-badge">Sold Out</span>
-            </p>
-          </div>
-        </article>
+      <!-- PRODUCT 4 -->
+      <article class="product-card">
+        <div class="product-img">
+          <img src="images/product-4.jpg" alt="✏️ Product name" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">✏️ Product Name</p>
+          <p class="product-material">✏️ Material · Details</p>
+          <p class="product-price">
+            $✏️.00
+            <span class="product-badge">sold out</span>
+          </p>
+        </div>
+      </article>
 
 
-        <!-- PRODUCT 5 -->
-        <article class="product-card">
-          <div class="product-img">
-            <img src="images/product-5.jpg" alt="✏️ Product name" />
-          </div>
-          <div class="product-info">
-            <p class="product-name">✏️ Product Name</p>
-            <p class="product-material">✏️ Material / Details</p>
-            <p class="product-price">$✏️.00</p>
-          </div>
-        </article>
+      <!-- PRODUCT 5 -->
+      <article class="product-card">
+        <div class="product-img">
+          <img src="images/product-5.jpg" alt="✏️ Product name" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">✏️ Product Name</p>
+          <p class="product-material">✏️ Material · Details</p>
+          <p class="product-price">$✏️.00</p>
+        </div>
+      </article>
 
 
-        <!-- PRODUCT 6 -->
-        <article class="product-card">
-          <div class="product-img">
-            <img src="images/product-6.jpg" alt="✏️ Product name" />
-          </div>
-          <div class="product-info">
-            <p class="product-name">✏️ Product Name</p>
-            <p class="product-material">✏️ Material / Details</p>
-            <p class="product-price">$✏️.00</p>
-          </div>
-        </article>
+      <!-- PRODUCT 6 -->
+      <article class="product-card">
+        <div class="product-img">
+          <img src="images/product-6.jpg" alt="✏️ Product name" />
+        </div>
+        <div class="product-info">
+          <p class="product-name">✏️ Product Name</p>
+          <p class="product-material">✏️ Material · Details</p>
+          <p class="product-price">$✏️.00</p>
+        </div>
+      </article>
 
 
-        <!--
-          ✏️ Keep adding <article class="product-card"> blocks here.
-             Copy the block above and fill in your details.
-        -->
+      <!--
+        ✏️ Keep adding <article class="product-card"> blocks here.
+           Copy any card above and fill in your details.
+      -->
 
 
-      </div><!-- /.product-grid -->
-    </div><!-- /.container -->
-  </section>
+    </div>
+  </div>
 
 
   <!-- ═══════════════════════════════════════
        CUSTOM ORDERS CALLOUT
-       ✏️ Edit or delete this if you don't
+       ✏️ Edit or delete if you don't
            accept custom orders.
   ═══════════════════════════════════════ -->
-  <section style="background: var(--warm-white); border-top: 1px solid var(--light-line);">
-    <div class="container" style="text-align: center;">
-      <span class="section-label">Something special in mind?</span>
-      <h2>Custom Orders Welcome</h2>
-      <div class="divider" style="margin-inline: auto;"></div>
-      <p style="margin: 0 auto 2rem; color: var(--mid);">
-        ✏️ Describe your custom order policy here. For example:
-        "Have a color palette, occasion, or style in mind? I love working on
-        custom pieces — get in touch and let's create something just for you."
+  <div class="callout">
+    <div class="container">
+      <span class="section-label" style="background: var(--amber); color: var(--parchment);">something special in mind?</span>
+      <h2>custom orders welcome.</h2>
+      <div class="divider"></div>
+      <!-- ✏️ Describe your custom order policy -->
+      <p>
+        have a color palette, occasion, or vibe in mind? i love working on
+        custom pieces — get in touch and let's make something just for you.
       </p>
-      <a href="contact.html" class="btn btn-clay">Get in Touch</a>
+      <a href="contact.html" class="btn" style="border-color: var(--amber-light); color: var(--amber-light);">get in touch</a>
     </div>
-  </section>
+  </div>
 
 
   <!-- ═══════════════════════════════════════
@@ -204,31 +212,22 @@
   ═══════════════════════════════════════ -->
   <footer>
     <div class="container footer-inner">
-      <p class="footer-copy">© 2025 ✏️ Your Store Name. All rights reserved.</p>
+      <p class="footer-copy">© 2025 ✏️ Your Store Name. all rights reserved.</p>
       <ul class="footer-links">
-        <li><a href="index.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="contact.html">contact</a></li>
       </ul>
     </div>
   </footer>
 
 
-  <!-- ═══════════════════════════════════════
-       FILTER BUTTON SCRIPT
-       (Makes the category buttons toggle)
-       ✏️ Delete this block if you removed
-           the filter bar above.
-  ═══════════════════════════════════════ -->
+  <!-- Filter button toggle script -->
   <script>
     document.querySelectorAll('.filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        // NOTE: These buttons only style the active state right now.
-        // To make them actually filter products, you'd add a data-category
-        // attribute to each card and button, then show/hide cards here.
-        // Ask Claude for help if you'd like that functionality added!
       });
     });
   </script>
