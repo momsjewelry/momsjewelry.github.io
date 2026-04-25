@@ -160,7 +160,7 @@ nav {
   font-size: 0.7rem;
   font-weight: 400;
   letter-spacing: 0.18em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--parchment);
   padding: 0 2.5rem;
 }
@@ -230,7 +230,7 @@ nav {
 .stamp-ring p {
   font-size: 0.6rem;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--parchment);
   line-height: 1.6;
   max-width: none;
@@ -437,7 +437,7 @@ nav {
   color: var(--light-line);
   font-size: 0.65rem;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .product-info { padding: 1rem 1.1rem 1.2rem; }
@@ -467,7 +467,7 @@ nav {
   display: inline-block;
   font-size: 0.58rem;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   background: var(--amber);
   color: var(--parchment);
   padding: 0.15rem 0.5rem;
@@ -533,7 +533,7 @@ nav {
 .contact-card-title {
   font-size: 0.7rem;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--amber);
   margin-top: 0.15rem;
 }
@@ -552,7 +552,7 @@ nav {
 .contact-card-stamp span {
   font-size: 0.48rem;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--amber);
   text-align: center;
   line-height: 1.5;
@@ -594,7 +594,7 @@ nav {
 .contact-label {
   font-size: 0.65rem;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--mid);
   display: block;
 }
@@ -621,7 +621,7 @@ nav {
   gap: 0.4rem;
   font-size: 0.7rem;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--mid);
   border: 1px solid var(--light-line);
   padding: 0.3rem 0.8rem;
